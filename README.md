@@ -1,4 +1,8 @@
 # Análisis de la pobreza en el Perú en 2022: ingresos e informalidad
+### Resultados destacados:
+- 38% de los hogares rurales son pobres, en comparación con el 17% en zonas urbanas.
+- La desigualdad económica (Índice de Gini: 0.45) destaca como un desafío clave.
+- Un mayor ingreso y la formalidad laboral reducen significativamente la probabilidad de pobreza.
 
 ## Descripción del proyecto
 
@@ -26,7 +30,7 @@ Un aumento en los ingresos y la formalidad laboral disminuye significativamente 
 
 * Módulo de ingresos y empleo (Enaho01a-2022-500)
 
-El archivo principal analizado está disponible en este repositorio: 'dataPobrezaPeru2022.csv'.
+El archivo principal analizado está disponible en este repositorio: [dataPobrezaPeru2022.csv](https://github.com/WLozanoH/PovertyAnalysisPeru2022/blob/main/dataPobrezaPeru2022.csv).
 
 ## Metodología
 
@@ -147,9 +151,6 @@ Diferencias significativas entre ingresos en zonas urbanas y rurales (p-value = 
 * GitHub: Documentación y publicación del proyecto.
 
 ## Estructura del repositorio
-
-## Estructura del Proyecto
-
 El proyecto está organizado de la siguiente manera:
 
 ```plaintext
