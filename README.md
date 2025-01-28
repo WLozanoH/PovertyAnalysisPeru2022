@@ -148,6 +148,11 @@ Diferencias significativas entre ingresos en zonas urbanas y rurales (p-value = 
 
 ## Estructura del repositorio
 
+## Estructura del Proyecto
+
+El proyecto está organizado de la siguiente manera:
+
+```plaintext
 |-- data
 |   |-- Enaho01a-2022-500.csv  # Datos originales
 |-- scripts
@@ -155,6 +160,12 @@ Diferencias significativas entre ingresos en zonas urbanas y rurales (p-value = 
 |-- outputs
 |   |-- visualizaciones/       # Gráficos y resultados
 |-- README.md                  # Documentación del proyecto
+```
+
+- **data/**: Contiene los datos originales utilizados en el análisis.
+- **scripts/**: Incluye el código de limpieza y análisis de datos.
+- **outputs/**: Carpeta para guardar las visualizaciones y resultados.
+- **README.md**: Archivo con la documentación del proyecto.
 
 ## Cómo usar este repositorio
 
