@@ -1,4 +1,5 @@
 # Análisis de la pobreza en el Perú en 2022: ingresos e informalidad
+[Enlace al proyecto](https://github.com/WLozanoH/PovertyAnalysisPeru2022/blob/main/ProyectoPobrezaPeru.ipynb)
 ### Resultados destacados:
 - 38% de los hogares rurales son pobres, en comparación con el 17% en zonas urbanas.
 - La desigualdad económica (Índice de Gini: 0.45) destaca como un desafío clave.
@@ -172,17 +173,27 @@ El proyecto está organizado de la siguiente manera:
 ## Resumen: Resultados
 
 ```plaintext
-| **Aspecto Analizado**      | **Resultado Principal**                                                              | **Indicador Clave**         |
-|-----------------------------|--------------------------------------------------------------------------------------|-----------------------------|
-| **Tasa de pobreza general** | 29% de los hogares son clasificados como pobres                                      | Estado de pobreza           |
-| **Tasa de pobreza rural**   | 38% de los hogares rurales son pobres                                                | Zona: Rural                 |
-| **Tasa de pobreza urbana**  | 17% de los hogares urbanos son pobres                                                | Zona: Urbana                |
-| **Efecto de los ingresos**  | Un incremento en ingresos reduce significativamente la probabilidad de pobreza       | Regresión logística: coeficiente = -0.027 |
-| **Desigualdad de ingresos** | Índice de Gini: 0.45                                                                 | Índice de Gini              |
-| **Disparidad entre percentiles** | Ingresos del percentil 90 son 12 veces mayores que los del percentil 10              | P90/P10 Ratio: 12           |
+| **Aspecto Analizado**         | **Resultado Principal**                                                        | **Indicador Clave**             |
+|--------------------------------|--------------------------------------------------------------------------------|---------------------------------|
+| **Tasa de pobreza general**    | 29% de los hogares son clasificados como pobres                                | Estado de pobreza              |
+| **Tasa de pobreza rural**      | 38% de los hogares rurales son pobres                                          | Zona: Rural                    |
+| **Tasa de pobreza urbana**     | 17% de los hogares urbanos son pobres                                          | Zona: Urbana                   |
+| **Efecto de los ingresos**     | Un incremento en ingresos reduce significativamente la probabilidad de pobreza | Regresión logística: coef = -0.027 |
+| **Desigualdad de ingresos**    | Alta desigualdad económica (Índice de Gini)                                    | Índice de Gini: 0.45           |
+| **Disparidad entre percentiles** | Los ingresos del percentil 90 son 12 veces mayores que los del percentil 10    | P90/P10 Ratio: 12              |
 ```
+## Recomendaciones:
+1. Formalización laboral
+   - Simplificar el registro en la seguridad social.
+   - Incentivar la formalización en sectores rurales clave.
+
+2. Reducir la desigualdad
+   - Diseñar programas redistributivos como transferencias condicionadas.
+   - Incrementar la inversión en educación y capacitación laboral.
+
 ## Conclusión
 Este proyecto destaca cómo la pobreza en el Perú está influenciada por factores económicos como los ingresos y la formalidad laboral. Al abordar las disparidades rurales y urbanas, y proponer recomendaciones prácticas, se establece una base sólida para diseñar políticas públicas orientadas a reducir la pobreza y fomentar la igualdad económica.
+"Este análisis puede servir como base para decisiones informadas que impacten directamente en la reducción de la pobreza en el Perú"
 
 ## Cómo usar este repositorio
 
