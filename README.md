@@ -30,7 +30,7 @@ Un aumento en los ingresos y la formalidad laboral disminuye significativamente 
 
 * Módulo de ingresos y empleo (Enaho01a-2022-500)
 
-El archivo principal analizado está disponible en este repositorio: [dataPobrezaPeru2022.csv](https://github.com/WLozanoH/PovertyAnalysisPeru2022/blob/main/dataPobrezaPeru2022.csv).
+El archivo principal analizado está disponible en este repositorio: [dataPobrezaPeru2022.csv](https://github.com/WLozanoH/PovertyAnalysisPeru2022/blob/main/dataPobrezaPeru2022.csv) (contiene datos limpios para análisis)
 
 ## Metodología
 
@@ -168,13 +168,29 @@ El proyecto está organizado de la siguiente manera:
 - **outputs/**: Carpeta para guardar las visualizaciones y resultados.
 - **README.md**: Archivo con la documentación del proyecto.
 
+
+## Resumen: Resultados
+
+```plaintext
+| **Aspecto Analizado**      | **Resultado Principal**                                                              | **Indicador Clave**         |
+|-----------------------------|--------------------------------------------------------------------------------------|-----------------------------|
+| **Tasa de pobreza general** | 29% de los hogares son clasificados como pobres                                      | Estado de pobreza           |
+| **Tasa de pobreza rural**   | 38% de los hogares rurales son pobres                                                | Zona: Rural                 |
+| **Tasa de pobreza urbana**  | 17% de los hogares urbanos son pobres                                                | Zona: Urbana                |
+| **Efecto de los ingresos**  | Un incremento en ingresos reduce significativamente la probabilidad de pobreza       | Regresión logística: coeficiente = -0.027 |
+| **Desigualdad de ingresos** | Índice de Gini: 0.45                                                                 | Índice de Gini              |
+| **Disparidad entre percentiles** | Ingresos del percentil 90 son 12 veces mayores que los del percentil 10              | P90/P10 Ratio: 12           |
+```
+## Conclusión
+Este proyecto destaca cómo la pobreza en el Perú está influenciada por factores económicos como los ingresos y la formalidad laboral. Al abordar las disparidades rurales y urbanas, y proponer recomendaciones prácticas, se establece una base sólida para diseñar políticas públicas orientadas a reducir la pobreza y fomentar la igualdad económica.
+
 ## Cómo usar este repositorio
 
 1.- Clona este repositorio:
  * git clone https://github.com/tu_usuario/analisis-pobreza-peru-2022.git
 
 2.- Instala las dependencias necesarias:
- * pip install -r requirements.txt
+ * pip install -r [requirements.txt](https://github.com/WLozanoH/PovertyAnalysisPeru2022/blob/main/requirements.txt)
 
 3.- Ejecuta el script de análisis:
  * python scripts/analisis.py
