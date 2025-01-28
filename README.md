@@ -1,6 +1,8 @@
 # Análisis de la pobreza en el Perú en 2022: ingresos e informalidad
-[Enlace al proyecto](https://github.com/WLozanoH/PovertyAnalysisPeru2022/blob/main/ProyectoPobrezaPeru.ipynb)
-### Resultados destacados:
+
+## 1. Proyecto en GitHub
+Explora el proyecto completo en este enlace: [ProyectoPobrezaPeru.ipynb](https://github.com/WLozanoH/PovertyAnalysisPeru2022/blob/main/ProyectoPobrezaPeru.ipynb).
+### 2. Resultados destacados:
 - 38% de los hogares rurales son pobres, en comparación con el 17% en zonas urbanas.
 - La desigualdad económica (Índice de Gini: 0.45) destaca como un desafío clave.
 - Un mayor ingreso y la formalidad laboral reducen significativamente la probabilidad de pobreza.
@@ -33,31 +35,21 @@ Un aumento en los ingresos y la formalidad laboral disminuye significativamente 
 
 El archivo principal analizado está disponible en este repositorio: [dataPobrezaPeru2022.csv](https://github.com/WLozanoH/PovertyAnalysisPeru2022/blob/main/dataPobrezaPeru2022.csv) (contiene datos limpios para análisis)
 
-## Metodología
+## 3. Metodología
 
 ### Limpieza de datos
-
-1. Estandarización:
-
-* Renombrado de columnas para facilitar su interpretación.
-
-* Creación de diccionarios para mapear variables categóricas (dominio, estrato, tipo de contrato, etc.).
-
-2. Manejo de valores nulos:
-
-* Imputación de variables numéricas usando la mediana por conglomerado (nconglome).
-
-* Imputación de variables categóricas usando la moda.
-
-3. Tratamiento de valores atípicos:
-
-* Eliminación de outliers utilizando el rango intercuartil (IQR).
-
-4. Eliminación de duplicados:
-
-* Remoción de registros duplicados.
-
-## Exploración de datos (EDA)
+1. 🧹 **Estandarización**:
+   - Renombrado de columnas para facilitar su interpretación.
+   - Creación de diccionarios para mapear variables categóricas.
+2. 🛠️ **Manejo de valores nulos**:
+   - Imputación de variables numéricas usando la mediana por conglomerado.
+   - Imputación de variables categóricas usando la moda.
+3. 🗑️ **Tratamiento de valores atípicos**:
+   - Eliminación de outliers utilizando el rango intercuartil (IQR).
+4. 🔍 **Eliminación de duplicados**:
+   - Remoción de registros duplicados.
+ 
+## 5. Exploración de datos (EDA)
 
 1. Distribución de ingresos:
 
@@ -77,14 +69,15 @@ El archivo principal analizado está disponible en este repositorio: [dataPobrez
 
 * Gráficos de barras para examinar las tasas de pobreza en zonas urbanas y rurales.
 
-## Métodos estadísticos avanzados
+## 6. Métodos estadísticos avanzados
 
 1. Regresión Logística:
 
 *  Relación entre ingreso_total, es_formal y es_pobre.
 
-#### Resultados:
+#### 7. Resultados:
 
+ 1. Regresión logística:
   * Aumentar ingresos reduce la probabilidad de pobreza (-0.027).
 
   * La formalidad laboral tiene un efecto protector significativo (-1.083).
@@ -99,23 +92,9 @@ Diferencias significativas entre ingresos en zonas urbanas y rurales (p-value = 
 
 ## Resultados clave
 
-1. Impacto de los ingresos:
-
-* Los ingresos tienen un efecto directo en la reducción de la pobreza.
-
-* 38% de los hogares rurales y 17% de los urbanos son pobres.
-
-2. Formalidad laboral:
-
-* Trabajos formales están asociados con menores probabilidades de pobreza.
-
-3. Desigualdad económica:
-
-* El índice de Gini (0.45) refleja una concentración alta de ingresos.
-
-4. Diferencias regionales:
-
-* Las zonas rurales muestran ingresos significativamente más bajos que las urbanas.
+**Tasa de pobreza rural**: **38%**  
+**Tasa de pobreza urbana**: **17%**  
+**Índice de Gini**: **0.45** 
 
 ## Recomendaciones
 
