@@ -172,6 +172,7 @@ El proyecto está organizado de la siguiente manera:
 
 ## Conclusión
 Este proyecto destaca cómo la pobreza en el Perú está influenciada por factores económicos como los ingresos y la formalidad laboral. Al abordar las disparidades rurales y urbanas, y proponer recomendaciones prácticas, se establece una base sólida para diseñar políticas públicas orientadas a reducir la pobreza y fomentar la igualdad económica.
+
 "Este análisis puede servir como base para decisiones informadas que impacten directamente en la reducción de la pobreza en el Perú"
 
 ## Cómo usar este repositorio
