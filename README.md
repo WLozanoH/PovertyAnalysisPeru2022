@@ -146,6 +146,27 @@ Diferencias significativas entre ingresos en zonas urbanas y rurales (p-value = 
 
 * GitHub: Documentación y publicación del proyecto.
 
+## Estructura del repositorio
+
+|-- data
+|   |-- Enaho01a-2022-500.csv  # Datos originales
+|-- scripts
+|   |-- analisis.py            # Limpieza y análisis
+|-- outputs
+|   |-- visualizaciones/       # Gráficos y resultados
+|-- README.md                  # Documentación del proyecto
+
+## Cómo usar este repositorio
+
+1.- Clona este repositorio:
+ * git clone https://github.com/tu_usuario/analisis-pobreza-peru-2022.git
+
+2.- Instala las dependencias necesarias:
+ * pip install -r requirements.txt
+
+3.- Ejecuta el script de análisis:
+ * python scripts/analisis.py
+
 ### Contribuciones
 
 Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, abre un pull request o contacta al autor.
