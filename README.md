@@ -20,7 +20,7 @@ Un aumento en los ingresos y la formalidad laboral disminuye significativamente 
 
 * Encuesta Nacional de Hogares (ENAHO) del Instituto Nacional de Estadística e Informática (INEI) de Perú.
 
-* (Descargar datos oficiales)[https://www.datosabiertos.gob.pe/dataset/encuesta-nacional-de-hogares-enaho-2022-instituto-nacional-de-estad%C3%ADstica-e-inform%C3%A1tica-%E2%80%93]
+* [Descargar datos oficiales](https://www.datosabiertos.gob.pe/dataset/encuesta-nacional-de-hogares-enaho-2022-instituto-nacional-de-estad%C3%ADstica-e-inform%C3%A1tica-%E2%80%93)
 
 ## Módulos empleados:
 
