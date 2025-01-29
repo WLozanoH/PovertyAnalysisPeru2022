@@ -155,14 +155,15 @@ El proyecto está organizado de la siguiente manera:
 ## Resumen: Resultados
 
 ```plaintext
-| **Aspecto Analizado**         | **Resultado Principal**                                                        | **Indicador Clave**             |
-|--------------------------------|--------------------------------------------------------------------------------|---------------------------------|
-| **Tasa de pobreza general**    | **29% de los hogares son clasificados como pobres**                                | Estado de pobreza              |
-| **Tasa de pobreza rural**      | 38% de los hogares rurales son pobres                                          | Zona: Rural                    |
-| **Tasa de pobreza urbana**     | 17% de los hogares urbanos son pobres                                          | Zona: Urbana                   |
-| **Efecto de los ingresos**     | Un incremento en ingresos reduce significativamente la probabilidad de pobreza | Regresión logística: coef = -0.027 |
-| **Desigualdad de ingresos**    | Alta desigualdad económica (Índice de Gini)                                    | Índice de Gini: 0.45           |
-| **Disparidad entre percentiles** | Los ingresos del percentil 90 son 12 veces mayores que los del percentil 10    | P90/P10 Ratio: 12              |
+| Aspecto Analizado               | Resultado Principal*                                                           |  Indicador Clave**                 |
+|---------------------------------|--------------------------------------------------------------------------------|------------------------------------|
+| Tasa de pobreza general         | 29% de los hogares son clasificados como pobres**                              | Estado de pobreza                  |
+| Tasa de pobreza rural           | 38% de los hogares rurales son pobres                                          | Zona: Rural                        |
+| Tasa de pobreza urbana          | 17% de los hogares urbanos son pobres                                          | Zona: Urbana                       |
+| Efecto de los ingresos          | Un incremento en ingresos reduce significativamente la probabilidad de pobreza | Regresión logística: coef = -0.027 |
+| Desigualdad de ingresos         | Alta desigualdad económica (Índice de Gini)                                    | Índice de Gini: 0.45               |
+| Disparidad entre percentiles    | Los ingresos del percentil 90 son 12 veces mayores que los del percentil 10    | P90/P10 Ratio: 12                  |
+
 ```
 ## Recomendaciones:
 1. Formalización laboral
