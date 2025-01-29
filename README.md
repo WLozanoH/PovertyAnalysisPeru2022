@@ -22,8 +22,6 @@ Entender la relación entre los ingresos, la informalidad laboral y la pobreza e
 * Hipótesis Nula (H0): El ingreso total no afecta la probabilidad de que un hogar sea clasificado como pobre.
 * Hipótesis Alternativa (H1): Un mayor ingreso total reduce la probabilidad de que un hogar sea clasificado como pobre.
 
-## Datos utilizados
-
 ### 5. Datos utilizados
 
 * Origen: Encuesta Nacional de Hogares (ENAHO) del INEI de Perú.
