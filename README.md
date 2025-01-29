@@ -1,41 +1,36 @@
 # Análisis de la pobreza en el Perú en 2022: ingresos e informalidad
 ## 1. Introducción
 El proyecto “Análisis de la pobreza en el Perú por el nivel de ingresos e informalidad” evalúa la pobreza en los hogares peruanos durante 2022 utilizando datos de la ENAHO del INEI. A través del análisis de más de 87,000 registros con Python, se identifican disparidades de ingresos, patrones de informalidad laboral y diferencias clave entre áreas urbanas y rurales. Este proyecto incluye limpieza de datos, creación de variables como "estado de pobreza", y visualizaciones que destacan la relación entre ingresos, informalidad y pobreza, ofreciendo insights para orientar políticas públicas.
-## Proyecto en GitHub
-Explora el proyecto completo en este enlace: [ProyectoPobrezaPeru.ipynb](https://github.com/WLozanoH/PovertyAnalysisPeru2022/blob/main/ProyectoPobrezaPeru.ipynb).
+* [Datos: Módulo 2022-500 de la ENAHO.](https://www.datosabiertos.gob.pe/dataset/encuesta-nacional-de-hogares-enaho-2022-instituto-nacional-de-estad%C3%ADstica-e-inform%C3%A1tica-%E2%80%93)
+* Link del proyecto: [PobrezaPerú2022](https://github.com/WLozanoH/PovertyAnalysisPeru2022/blob/main/ProyectoPobrezaPeru.ipynb)
+
 ### 2. Resultados destacados:
-- 38% de los hogares rurales son pobres, en comparación con el 17% en zonas urbanas.
-- La desigualdad económica (Índice de Gini: 0.45) destaca como un desafío clave.
-- Un mayor ingreso y la formalidad laboral reducen significativamente la probabilidad de pobreza.
+* El 38% de los hogares rurales son pobres, comparado con el 17% en zonas urbanas.
+* La desigualdad económica es moderada-alta, con un Índice de Gini de 0.45.
+* Un mayor ingreso y la formalidad laboral reducen significativamente la probabilidad de pobreza.
   
 ![Gráfico de la tasa de pobreza por Ingresos promedio e informalidad](tasas%20de%20pobreza.png)
 
 El gráfico de la tasa de pobreza en función de los ingresos promedio e informalidad muestra cómo la pobreza está fuertemente vinculada a los niveles de ingreso. También resalta que los trabajos formales tienden a proporcionar ingresos más altos, lo que destaca la importancia de políticas que promuevan la formalización laboral
 
-## Objetivo
+## 3. Objetivo del Proyecto
 
-Evaluar la relación entre los ingresos, la informalidad laboral y la probabilidad de pobreza en los hogares peruanos, identificando disparidades económicas regionales y proponiendo estrategias para su mitigación.
+Este análisis tiene como objetivo entender la relación entre los ingresos, la informalidad laboral y la pobreza en el Perú, destacando disparidades regionales y proponiendo políticas públicas para su mitigación.
 
-## Hipótesis
+## 4. Hipótesis
 
-* H0: El ingreso total no afecta la probabilidad de que un hogar sea clasificado como pobre.
-* H1: Un mayor ingreso total reduce la probabilidad de que un hogar sea clasificado como pobre.
+* Hipótesis Nula (H0): El ingreso total no afecta la probabilidad de que un hogar sea clasificado como pobre.
+* Hipótesis Alternativa (H1): Un mayor ingreso total reduce la probabilidad de que un hogar sea clasificado como pobre.
 
 ## Datos utilizados
 
-### Origen:
+### 5. Datos utilizados
 
-* Encuesta Nacional de Hogares (ENAHO) del Instituto Nacional de Estadística e Informática (INEI) de Perú.
+* Origen: Encuesta Nacional de Hogares (ENAHO) del INEI de Perú.
+* Módulo de Interés: Módulo de ingresos y empleo (Enaho01a-2022-500).
+* Archivo disponible: [Módulo 2022-500](https://github.com/WLozanoH/PovertyAnalysisPeru2022/blob/main/Enaho01a-2022-500.zip).
 
-* [Descargar datos oficiales](https://www.datosabiertos.gob.pe/dataset/encuesta-nacional-de-hogares-enaho-2022-instituto-nacional-de-estad%C3%ADstica-e-inform%C3%A1tica-%E2%80%93)
-
-## Módulos empleados:
-
-* Módulo de ingresos y empleo (Enaho01a-2022-500)
-
-El archivo principal analizado está disponible en este repositorio: [dataPobrezaPeru2022.csv](https://github.com/WLozanoH/PovertyAnalysisPeru2022/blob/main/dataPobrezaPeru2022.csv) (contiene datos limpios para análisis)
-
-## 3. Metodología
+## 6. Metodología
 
 ### Limpieza de datos
 1. 🧹 **Estandarización**:
@@ -49,45 +44,23 @@ El archivo principal analizado está disponible en este repositorio: [dataPobrez
 4. 🔍 **Eliminación de duplicados**:
    - Remoción de registros duplicados.
  
-## 5. Exploración de datos (EDA)
+## 7. Exploración de datos (EDA)
 
-1. Distribución de ingresos:
+Se analizó la distribución de los ingresos y la relación entre las variables clave (ingreso total, formalidad laboral, pobreza). Los hallazgos clave fueron:
 
-* Asimetría positiva con concentración de ingresos bajos.
+* Los hogares rurales presentan tasas de pobreza mucho más altas que los urbanos.
+* La formalidad laboral está moderadamente correlacionada con menores probabilidades de pobreza.
 
-* Densidad de ingresos significativamente más alta en áreas rurales.
+## 8. Métodos Estadísticos Avanzados
 
-2. Relación entre variables:
-
-* Correlación negativa fuerte entre ingresos y pobreza (-0.56).
-
-* La formalidad laboral presenta una correlación moderada con menores probabilidades de pobreza (-0.39).
-
-3. Visualizaciones:
-
-* Histogramas y boxplots para analizar la distribución de ingresos por dominio geográfico.
-
-* Gráficos de barras para examinar las tasas de pobreza en zonas urbanas y rurales.
-
-## 6. Resultados clave
-
-**Regresión logística** **-0.027**
-  * Aumentar ingresos reduce la probabilidad de pobreza (-0.027).
-
-**Tasa de pobreza rural**: **38%**
-
-**Tasa de pobreza urbana**: **17%**
-
-**Índice de Gini**: **0.45**
-  * (desigualdad moderada-alta)
-
-**F-estadistic**: **7597**
-**p-Value:**: **0.0** 
+* Regresión Logística: Relación entre ingreso_total, es_formal, y es_pobre.
+* Índice de Gini: Mide la desigualdad de ingresos (valor: 0.45).
+* ANOVA: Se identificaron diferencias significativas entre ingresos en zonas urbanas y rurales (p-value = 0.0).
 
 ![Proporción de Hogares en Pobreza por Zona: rural y urbano](pobreza_por_zonas.png)
 El gráfico de "Proporción de Hogares en Pobreza por Zona: rural y urbano" refleja una disparidad significativa en la pobreza entre las zonas rurales y urbanas en el Perú. Las áreas rurales tienen una tasa de pobreza mucho más alta, lo que sugiere que los hogares rurales enfrentan mayores desafíos económicos en comparación con los urbanos.
 
-### Resumen: Resultados
+## 9. Resultados Clave
 
 ```plaintext
 | Aspecto Analizado               | Resultado Principal                                                            |  Indicador Clave                   |
@@ -100,7 +73,8 @@ El gráfico de "Proporción de Hogares en Pobreza por Zona: rural y urbano" refl
 | Disparidad entre percentiles    | Los ingresos del percentil 90 son 12 veces mayores que los del percentil 10    | P90/P10 Ratio: 12                  |
 
 ```
-## 7. Recomendaciones:
+## 10. Recomendaciones:
+
 1. Formalización laboral
    - Simplificar el registro en la seguridad social.
    - Incentivar la formalización en sectores rurales clave.
@@ -119,11 +93,10 @@ Ejemplo: **"Bolsa Familia" en Brasil**
 * Descripción: Un programa de transferencias condicionadas de dinero a hogares en situación de pobreza. Las familias recibían apoyo económico si cumplían condiciones como la asistencia escolar y la vacunación de sus hijos.
 * Impacto: Redujo significativamente la pobreza extrema en zonas rurales y urbanas, y mejoró indicadores de salud y educación.
     
-## 8. Conclusión
+## 11. Conclusión
 
-* El análisis realizado utiliza regresión logística, que es una técnica estadística que nos permite entender la relación entre variables. En este caso, el modelo muestra cómo el ingreso total de un hogar influye en la probabilidad de ser pobre. El coeficiente negativo de -0.027 indica que, a medida que el ingreso total de un hogar aumenta, la probabilidad de que este hogar sea clasificado como pobre disminuye. En otras palabras, a mayor ingreso, menor es la probabilidad de pobreza.
-
-* Además, el p-valor asociado es menor a 0.05, lo que significa que los resultados son estadísticamente significativos. Esto confirma que la relación entre el ingreso y la pobreza observada no es producto del azar, sino que es una relación real.
+* El análisis muestra que los ingresos y la formalidad laboral son factores clave para reducir la pobreza en el Perú. Se observa una fuerte correlación negativa entre los ingresos y la pobreza, mientras que la formalidad laboral actúa como un factor protector.
+* Se puede concluir que las políticas que promuevan el aumento de los ingresos y la formalización laboral pueden tener un impacto significativo en la reducción de la pobreza, no solo en áreas urbanas, sino también en zonas rurales. Además, este análisis puede ser una herramienta útil a nivel local, provincial o nacional, proporcionando datos clave para diseñar políticas que aborden las disparidades regionales y mejoren las condiciones de vida de los hogares más vulnerables. Implementar estos hallazgos en decisiones políticas puede ayudar a reducir la desigualdad y crear un camino hacia el desarrollo sostenible.
 
 ## Estructura del repositorio
 El proyecto está organizado de la siguiente manera:
