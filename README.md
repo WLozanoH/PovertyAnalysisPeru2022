@@ -6,8 +6,8 @@ Explora el proyecto completo en este enlace: [ProyectoPobrezaPeru.ipynb](https:/
 - 38% de los hogares rurales son pobres, en comparación con el 17% en zonas urbanas.
 - La desigualdad económica (Índice de Gini: 0.45) destaca como un desafío clave.
 - Un mayor ingreso y la formalidad laboral reducen significativamente la probabilidad de pobreza.
-- 
-![Gráfico de la tasa de pobreza por Ingresos promedio e informalidad](PovertyAnalysisPeru2022/tasas de pobreza.png)
+  
+![Gráfico de la tasa de pobreza por Ingresos promedio e informalidad](tasas%20de%20pobreza.png)
 
 ## Descripción del proyecto
 
@@ -77,7 +77,7 @@ El archivo principal analizado está disponible en este repositorio: [dataPobrez
 
 *  Relación entre ingreso_total, es_formal y es_pobre.
 
-#### 7. Resultados:
+## 7. Resultados:
 
  1. Regresión logística:
   * Aumentar ingresos reduce la probabilidad de pobreza (-0.027).
@@ -98,6 +98,7 @@ Diferencias significativas entre ingresos en zonas urbanas y rurales (p-value = 
 **Tasa de pobreza urbana**: **17%**  
 **Índice de Gini**: **0.45** 
 
+![Proporción de Hogares en Pobreza por Zona: rural y urbano](pobreza_por_zonas.png)
 ## Recomendaciones
 
 1. Promover la formalización laboral:
@@ -156,7 +157,7 @@ El proyecto está organizado de la siguiente manera:
 ```plaintext
 | **Aspecto Analizado**         | **Resultado Principal**                                                        | **Indicador Clave**             |
 |--------------------------------|--------------------------------------------------------------------------------|---------------------------------|
-| **Tasa de pobreza general**    | 29% de los hogares son clasificados como pobres                                | Estado de pobreza              |
+| **Tasa de pobreza general**    | **29% de los hogares son clasificados como pobres**                                | Estado de pobreza              |
 | **Tasa de pobreza rural**      | 38% de los hogares rurales son pobres                                          | Zona: Rural                    |
 | **Tasa de pobreza urbana**     | 17% de los hogares urbanos son pobres                                          | Zona: Urbana                   |
 | **Efecto de los ingresos**     | Un incremento en ingresos reduce significativamente la probabilidad de pobreza | Regresión logística: coef = -0.027 |
