@@ -175,9 +175,10 @@ El proyecto está organizado de la siguiente manera:
    - Incrementar la inversión en educación y capacitación laboral.
 
 ## Conclusión
-Este proyecto destaca cómo la pobreza en el Perú está influenciada por factores económicos como los ingresos y la formalidad laboral. Al abordar las disparidades rurales y urbanas, y proponer recomendaciones prácticas, se establece una base sólida para diseñar políticas públicas orientadas a reducir la pobreza y fomentar la igualdad económica.
 
-"Este análisis puede servir como base para decisiones informadas que impacten directamente en la reducción de la pobreza en el Perú"
+* El análisis realizado, que incluye una regresión logística, reveló un coeficiente negativo significativo para la variable ingreso total (-0.027). Esto indica que, a medida que el ingreso total aumenta, la probabilidad de que un hogar sea clasificado como pobre disminuye. Además, el p-valor asociado es inferior a 0.05, lo que respalda estadísticamente el rechazo de la hipótesis nula (H0) en favor de la hipótesis alternativa (H1).
+
+* Por lo tanto, podemos concluir que existe suficiente evidencia para afirmar que un mayor ingreso total reduce significativamente la probabilidad de pobreza en los hogares analizados. Este hallazgo subraya la importancia de implementar políticas públicas que promuevan el aumento de ingresos en los sectores más vulnerables, como una estrategia clave para combatir la pobreza en el Perú."
 
 ## Cómo usar este repositorio
 
