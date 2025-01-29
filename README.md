@@ -15,7 +15,7 @@ El gráfico de la tasa de pobreza en función de los ingresos promedio e informa
 
 ## 3. Objetivo del Proyecto
 
-Este análisis tiene como objetivo entender la relación entre los ingresos, la informalidad laboral y la pobreza en el Perú, destacando disparidades regionales y proponiendo políticas públicas para su mitigación.
+Entender la relación entre los ingresos, la informalidad laboral y la pobreza en el Perú, destacando disparidades regionales y proponiendo políticas públicas para su mitigación.
 
 ## 4. Hipótesis
 
