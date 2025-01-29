@@ -176,9 +176,9 @@ El proyecto está organizado de la siguiente manera:
 
 ## Conclusión
 
-* El análisis realizado, que incluye una regresión logística, reveló un coeficiente negativo significativo para la variable ingreso total (-0.027). Esto indica que, a medida que el ingreso total aumenta, la probabilidad de que un hogar sea clasificado como pobre disminuye. Además, el p-valor asociado es inferior a 0.05, lo que respalda estadísticamente el rechazo de la hipótesis nula (H0) en favor de la hipótesis alternativa (H1).
+* El análisis realizado, que incluye una regresión logística, reveló un coeficiente negativo significativo para la variable ingreso total (-0.027). Esto significa que, a medida que el ingreso total aumenta, la probabilidad de que un hogar sea clasificado como pobre disminuye. Además, el p-valor indica si los resultados obtenidos son estadísticamente significativos. En este caso, un p-valor menor a 0.05 sugiere que la relación entre el ingreso y la probabilidad de pobreza es real y no es producto del azar. El coeficiente de la regresión logística muestra la magnitud y dirección de esta relación: en este caso, un valor negativo de -0.027 significa que, a medida que el ingreso aumenta, la probabilidad de pobreza disminuye.
 
-* Por lo tanto, podemos concluir que existe suficiente evidencia para afirmar que un mayor ingreso total reduce significativamente la probabilidad de pobreza en los hogares analizados. Este hallazgo subraya la importancia de implementar políticas públicas que promuevan el aumento de ingresos en los sectores más vulnerables, como una estrategia clave para combatir la pobreza en el Perú."
+* Por lo tanto, podemos concluir que existe suficiente evidencia para afirmar que un mayor ingreso total reduce significativamente la probabilidad de pobreza en los hogares analizados. Este hallazgo subraya la importancia de implementar políticas públicas que promuevan el aumento de ingresos en los sectores más vulnerables, como una estrategia clave para combatir la pobreza en el Perú.
 
 ## Cómo usar este repositorio
 
