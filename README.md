@@ -6,6 +6,8 @@ Explora el proyecto completo en este enlace: [ProyectoPobrezaPeru.ipynb](https:/
 - 38% de los hogares rurales son pobres, en comparación con el 17% en zonas urbanas.
 - La desigualdad económica (Índice de Gini: 0.45) destaca como un desafío clave.
 - Un mayor ingreso y la formalidad laboral reducen significativamente la probabilidad de pobreza.
+- 
+![Gráfico de la tasa de pobreza por Ingresos promedio e informalidad](PovertyAnalysisPeru2022/tasas de pobreza.png)
 
 ## Descripción del proyecto
 
