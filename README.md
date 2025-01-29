@@ -1,6 +1,7 @@
 # Análisis de la pobreza en el Perú en 2022: ingresos e informalidad
-
-## 1. Proyecto en GitHub
+## 1. Introducción
+El proyecto “Análisis de la pobreza en el Perú por el nivel de ingresos e informalidad” evalúa la pobreza en los hogares peruanos durante 2022 utilizando datos de la ENAHO del INEI. A través del análisis de más de 87,000 registros con Python, se identifican disparidades de ingresos, patrones de informalidad laboral y diferencias clave entre áreas urbanas y rurales. Este proyecto incluye limpieza de datos, creación de variables como "estado de pobreza", y visualizaciones que destacan la relación entre ingresos, informalidad y pobreza, ofreciendo insights para orientar políticas públicas.
+## Proyecto en GitHub
 Explora el proyecto completo en este enlace: [ProyectoPobrezaPeru.ipynb](https://github.com/WLozanoH/PovertyAnalysisPeru2022/blob/main/ProyectoPobrezaPeru.ipynb).
 ### 2. Resultados destacados:
 - 38% de los hogares rurales son pobres, en comparación con el 17% en zonas urbanas.
@@ -9,11 +10,7 @@ Explora el proyecto completo en este enlace: [ProyectoPobrezaPeru.ipynb](https:/
   
 ![Gráfico de la tasa de pobreza por Ingresos promedio e informalidad](tasas%20de%20pobreza.png)
 
-## Descripción del proyecto
-
-Este proyecto evalúa la pobreza en los hogares peruanos durante 2022 utilizando datos de la Encuesta Nacional de Hogares (ENAHO) del Instituto Nacional de Estadística e Informática (INEI). Se analiza cómo los ingresos y la informalidad laboral influyen en la probabilidad de pobreza en diferentes regiones del país, con un enfoque en las diferencias entre áreas rurales y urbanas.
-
-Se procesaron más de 87,000 registros utilizando Python para limpiar, analizar y visualizar los datos, generando insights clave para orientar políticas públicas.
+El gráfico de la tasa de pobreza en función de los ingresos promedio e informalidad muestra cómo la pobreza está fuertemente vinculada a los niveles de ingreso. También resalta que los trabajos formales tienden a proporcionar ingresos más altos, lo que destaca la importancia de políticas que promuevan la formalización laboral
 
 ## Objetivo
 
@@ -21,7 +18,8 @@ Evaluar la relación entre los ingresos, la informalidad laboral y la probabilid
 
 ## Hipótesis
 
-Un aumento en los ingresos y la formalidad laboral disminuye significativamente la probabilidad de pobreza.
+* H0: El ingreso total no afecta la probabilidad de que un hogar sea clasificado como pobre.
+* H1: Un mayor ingreso total reduce la probabilidad de que un hogar sea clasificado como pobre.
 
 ## Datos utilizados
 
@@ -71,67 +69,61 @@ El archivo principal analizado está disponible en este repositorio: [dataPobrez
 
 * Gráficos de barras para examinar las tasas de pobreza en zonas urbanas y rurales.
 
-## 6. Métodos estadísticos avanzados
+## 6. Resultados clave
 
-1. Regresión Logística:
-
-*  Relación entre ingreso_total, es_formal y es_pobre.
-
-## 7. Resultados:
-
- 1. Regresión logística:
+**Regresión logística** **-0.027**
   * Aumentar ingresos reduce la probabilidad de pobreza (-0.027).
 
-  * La formalidad laboral tiene un efecto protector significativo (-1.083).
+**Tasa de pobreza rural**: **38%**
 
-2. Índice de Gini:
+**Tasa de pobreza urbana**: **17%**
 
-* Valor: 0.45 (desigualdad moderada-alta).
+**Índice de Gini**: **0.45**
+  * (desigualdad moderada-alta)
 
-3. Análisis de varianza (ANOVA):
-
-Diferencias significativas entre ingresos en zonas urbanas y rurales (p-value = 0.0).
-
-## Resultados clave
-
-**Tasa de pobreza rural**: **38%**  
-**Tasa de pobreza urbana**: **17%**  
-**Índice de Gini**: **0.45** 
+**F-estadistic**: **7597**
+**p-Value:**: **0.0** 
 
 ![Proporción de Hogares en Pobreza por Zona: rural y urbano](pobreza_por_zonas.png)
-## Recomendaciones
+El gráfico de "Proporción de Hogares en Pobreza por Zona: rural y urbano" refleja una disparidad significativa en la pobreza entre las zonas rurales y urbanas en el Perú. Las áreas rurales tienen una tasa de pobreza mucho más alta, lo que sugiere que los hogares rurales enfrentan mayores desafíos económicos en comparación con los urbanos.
 
-1. Promover la formalización laboral:
+### Resumen: Resultados
 
-* Simplificar el registro en la seguridad social.
+```plaintext
+| Aspecto Analizado               | Resultado Principal                                                            |  Indicador Clave                   |
+|---------------------------------|--------------------------------------------------------------------------------|------------------------------------|
+| Tasa de pobreza general         | 29% de los hogares son clasificados como pobres                                | Estado de pobreza                  |
+| Tasa de pobreza rural           | 38% de los hogares rurales son pobres                                          | Zona: Rural                        |
+| Tasa de pobreza urbana          | 17% de los hogares urbanos son pobres                                          | Zona: Urbana                       |
+| Efecto de los ingresos          | Un incremento en ingresos reduce significativamente la probabilidad de pobreza | Regresión logística: coef = -0.027 |
+| Desigualdad de ingresos         | Alta desigualdad económica (Índice de Gini)                                    | Índice de Gini: 0.45               |
+| Disparidad entre percentiles    | Los ingresos del percentil 90 son 12 veces mayores que los del percentil 10    | P90/P10 Ratio: 12                  |
 
-* Incentivar la formalización en sectores rurales clave.
+```
+## 7. Recomendaciones:
+1. Formalización laboral
+   - Simplificar el registro en la seguridad social.
+   - Incentivar la formalización en sectores rurales clave.
 
-2. Reducir la desigualdad:
+Ejemplo: **"MiPrimerEmpleo" en Colombia**
 
-* Diseñar programas redistributivos como transferencias condicionadas.
+* Descripción: Este programa otorgó incentivos fiscales a empresas que contrataran jóvenes como su primer empleo formal. La medida redujo las tasas de informalidad entre jóvenes recién egresados y mejoró sus ingresos.
+* Impacto: Disminución de la informalidad juvenil y aumento de ingresos promedio en jóvenes de sectores vulnerables.
 
-* Incrementar la inversión en educación y capacitación laboral.
+2. Reducir la desigualdad
+   - Diseñar programas redistributivos como transferencias condicionadas.
+   - Incrementar la inversión en educación y capacitación laboral.
 
-3. Fomentar el desarrollo rural:
+Ejemplo: **"Bolsa Familia" en Brasil**
 
-* Invertir en infraestructura y conectividad para mejorar el acceso al mercado.
+* Descripción: Un programa de transferencias condicionadas de dinero a hogares en situación de pobreza. Las familias recibían apoyo económico si cumplían condiciones como la asistencia escolar y la vacunación de sus hijos.
+* Impacto: Redujo significativamente la pobreza extrema en zonas rurales y urbanas, y mejoró indicadores de salud y educación.
+    
+## 8. Conclusión
 
-* Estimular la inversión privada en zonas rurales.
+* El análisis realizado utiliza regresión logística, que es una técnica estadística que nos permite entender la relación entre variables. En este caso, el modelo muestra cómo el ingreso total de un hogar influye en la probabilidad de ser pobre. El coeficiente negativo de -0.027 indica que, a medida que el ingreso total de un hogar aumenta, la probabilidad de que este hogar sea clasificado como pobre disminuye. En otras palabras, a mayor ingreso, menor es la probabilidad de pobreza.
 
-4. Ampliar el acceso a créditos:
-
-* Fomentar programas de microcréditos para pequeños emprendedores.
-
-5. Mejorar la educación:
-
-* Implementar capacitaciones laborales enfocadas en habilidades técnicas.
-
-## Tecnologías utilizadas
-
-* Python: Limpieza, análisis y visualización de datos (Pandas, NumPy, Matplotlib, Seaborn).
-
-* GitHub: Documentación y publicación del proyecto.
+* Además, el p-valor asociado es menor a 0.05, lo que significa que los resultados son estadísticamente significativos. Esto confirma que la relación entre el ingreso y la pobreza observada no es producto del azar, sino que es una relación real.
 
 ## Estructura del repositorio
 El proyecto está organizado de la siguiente manera:
@@ -151,34 +143,11 @@ El proyecto está organizado de la siguiente manera:
 - **outputs/**: Carpeta para guardar las visualizaciones y resultados.
 - **README.md**: Archivo con la documentación del proyecto.
 
+## Tecnologías utilizadas
 
-## Resumen: Resultados
+* Python: Limpieza, análisis y visualización de datos (Pandas, NumPy, Matplotlib, Seaborn).
 
-```plaintext
-| Aspecto Analizado               | Resultado Principal*                                                           |  Indicador Clave**                 |
-|---------------------------------|--------------------------------------------------------------------------------|------------------------------------|
-| Tasa de pobreza general         | 29% de los hogares son clasificados como pobres**                              | Estado de pobreza                  |
-| Tasa de pobreza rural           | 38% de los hogares rurales son pobres                                          | Zona: Rural                        |
-| Tasa de pobreza urbana          | 17% de los hogares urbanos son pobres                                          | Zona: Urbana                       |
-| Efecto de los ingresos          | Un incremento en ingresos reduce significativamente la probabilidad de pobreza | Regresión logística: coef = -0.027 |
-| Desigualdad de ingresos         | Alta desigualdad económica (Índice de Gini)                                    | Índice de Gini: 0.45               |
-| Disparidad entre percentiles    | Los ingresos del percentil 90 son 12 veces mayores que los del percentil 10    | P90/P10 Ratio: 12                  |
-
-```
-## Recomendaciones:
-1. Formalización laboral
-   - Simplificar el registro en la seguridad social.
-   - Incentivar la formalización en sectores rurales clave.
-
-2. Reducir la desigualdad
-   - Diseñar programas redistributivos como transferencias condicionadas.
-   - Incrementar la inversión en educación y capacitación laboral.
-
-## Conclusión
-
-* El análisis realizado, que incluye una regresión logística, reveló un coeficiente negativo significativo para la variable ingreso total (-0.027). Esto significa que, a medida que el ingreso total aumenta, la probabilidad de que un hogar sea clasificado como pobre disminuye. Además, el p-valor indica si los resultados obtenidos son estadísticamente significativos. En este caso, un p-valor menor a 0.05 sugiere que la relación entre el ingreso y la probabilidad de pobreza es real y no es producto del azar. El coeficiente de la regresión logística muestra la magnitud y dirección de esta relación: en este caso, un valor negativo de -0.027 significa que, a medida que el ingreso aumenta, la probabilidad de pobreza disminuye.
-
-* Por lo tanto, podemos concluir que existe suficiente evidencia para afirmar que un mayor ingreso total reduce significativamente la probabilidad de pobreza en los hogares analizados. Este hallazgo subraya la importancia de implementar políticas públicas que promuevan el aumento de ingresos en los sectores más vulnerables, como una estrategia clave para combatir la pobreza en el Perú.
+* GitHub: Documentación y publicación del proyecto.
 
 ## Cómo usar este repositorio
 
